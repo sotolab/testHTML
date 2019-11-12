@@ -245,17 +245,16 @@ testHTML
 
 
 
-<!DOCTYPE html> 
-<html> 
-
-<head> 
+	<!DOCTYPE html> 
+	<html> 
+	<head> 
 	<title> 
 		Get value of selected 
 		radio button 
 	</title> 
-</head> 
+	</head> 
 
-<body> 
+	<body> 
 	<p> 
 		Select a radio button and click on Submit. 
 	</p> 
@@ -286,6 +285,6 @@ testHTML
 			} 
 		} 
 	</script> 
-</body> 
-</html>					 
+	</body> 
+	</html>					 
 
