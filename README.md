@@ -243,3 +243,49 @@ testHTML
 
 금은보석이 가득한 보석상자 : 부, 경제적인 안정
 
+
+
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<title> 
+		Get value of selected 
+		radio button 
+	</title> 
+</head> 
+
+<body> 
+	<p> 
+		Select a radio button and click on Submit. 
+	</p> 
+	
+	Gender: 
+	<input type="radio" name="gender" value="Male">Male 
+	<input type="radio" name="gender" value="Female">Female 
+	<input type="radio" name="gender" value="Others">Others 
+	
+	<br> 
+	
+	<button type="button" onclick="displayRadioValue()"> 
+		Submit 
+	</button> 
+	
+	<br> 
+	
+	<div id="result"></div> 
+	
+	<script> 
+		function displayRadioValue() { 
+			var ele = document.getElementsByName('gender'); 
+			
+			for(i = 0; i < ele.length; i++) { 
+				if(ele[i].checked) 
+				document.getElementById("result").innerHTML
+						= "Gender: "+ele[i].value; 
+			} 
+		} 
+	</script> 
+</body> 
+</html>					 
+
